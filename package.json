@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jeffmicklos/coffeelint-everlane-view-create/issues"
   },
-  "homepage": "https://github.com/jeffmicklos/coffeelint-everlane-view-create#readme"
+  "homepage": "https://github.com/jeffmicklos/coffeelint-everlane-view-create#readme",
+  "dependencies": {
+    "coffee-script": "^1.9.3"
+  }
 }
