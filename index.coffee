@@ -1,10 +1,10 @@
 module.exports = class EverlaneViewCreate
 
-  rule: ->
+  rule:
     name: 'everlane_view_create'
     level: 'error'
-    message: 'View should NOT be instantiated with the `new` keyword'
+    message: 'View should NOT be instantiated with the `new` keyword, use `create` instead'
     description: 'This rule mandates that Everlane views should not be created by calling `new` on them'
 
-  lintToken: (token, tokenApi) ->
-    token is 'Bick'
+  lintLine: (line) ->
+    line.match /(new E.)(base|mobile|desktop)(.views)/
