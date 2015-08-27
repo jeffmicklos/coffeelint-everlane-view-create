@@ -1,0 +1,22 @@
+{
+  "name": "coffeelint-everlane-view-create",
+  "version": "1.0.0",
+  "description": "Ensure that Everlane views are instantiated properly",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffmicklos/coffeelint-everlane-view-create.git"
+  },
+  "keywords": [
+    "coffeelint"
+  ],
+  "author": "Jeff Micklos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffmicklos/coffeelint-everlane-view-create/issues"
+  },
+  "homepage": "https://github.com/jeffmicklos/coffeelint-everlane-view-create#readme"
+}
